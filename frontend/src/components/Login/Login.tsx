@@ -15,7 +15,7 @@ function	Login()
 		  <button onClick={redirectToIntra}>
 			<div className="logo-container">
 			  <img src={logo} alt="logo 42" className="logo" />
-			  <span className="sign-in">Sign in</span>
+			  <span className="sign-in">Login</span>
 			</div>
 		  </button>
 		</div>
