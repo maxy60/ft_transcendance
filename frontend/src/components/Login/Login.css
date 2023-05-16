@@ -1,0 +1,29 @@
+.login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+  
+  button {
+	margin-top: -80px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+  }
+  
+  .logo-container {
+	display: flex;
+	align-items: center;
+  }
+  
+  .logo {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+  }
+
+  .sign-in {
+	font-size: 25px;
+  }
+  
