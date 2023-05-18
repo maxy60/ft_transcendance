@@ -1,6 +1,6 @@
-Tuto HTML/CSS/React/Redux : [https://www.youtube.com/watch?v=hWLFTtcnEOs&ab_channel=FromScratch-Led%C3%A9veloppementWebdez%C3%A9ro](https://www.youtube.com/@FromScratchDeveloppementWeb/videos)
+Tutos HTML/CSS/React/Redux : [https://www.youtube.com/watch?v=hWLFTtcnEOs&ab_channel=FromScratch-Led%C3%A9veloppementWebdez%C3%A9ro](https://www.youtube.com/@FromScratchDeveloppementWeb/videos)
 
-Tuto Typescript : https://www.youtube.com/watch?v=ffCIANfx_-0&list=PLjwdMgw5TTLX1tQ1qDNHTsy_lrkCt4VW3&ab_channel=Grafikart.fr
+Tutos Typescript : https://www.youtube.com/watch?v=ffCIANfx_-0&list=PLjwdMgw5TTLX1tQ1qDNHTsy_lrkCt4VW3&ab_channel=Grafikart.fr
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
