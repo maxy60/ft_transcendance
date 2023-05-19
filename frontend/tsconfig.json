@@ -24,7 +24,7 @@
   "include": [
     "src"
   ],
-  "files": [
-		"frontend/src/app.ts"
-	]
+  // "files": [
+	// 	"src/App.tsx"
+	// ]
 }

@@ -1,12 +1,15 @@
 import { error } from "console";
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { loginSuccess } from "../../feature/auth/authSlice";
 
 // L'utilisateur autorise l'accès à ses données et est redirigé vers l'URI de redirection
 // Cette URI comprends un code d'autorisation qu'on va extraire et transmettre au backend.
 
 const Callback = () => {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   useEffect(() => {
     const url = new URL(window.location.href);
@@ -30,8 +33,7 @@ const Callback = () => {
         (
           data // si data a la structure { token: 'abcd', user: { name: 'John Doe', ... }
         ) => {
-          localStorage.setItem("token", data.token);
-          localStorage.setItem("user", JSON.stringify(data.user));
+          dispatch(loginSuccess({ token: data.token, user: data.user }));
 
           navigate("/dashboard");
         }
@@ -40,7 +42,7 @@ const Callback = () => {
       .catch((error) => {
         console.error("Error during authentication:", error);
       });
-  }, [navigate]);
+  }, [navigate, dispatch]);
 
   return <div>Loading...</div>;
 };
