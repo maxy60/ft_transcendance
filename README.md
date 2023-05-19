@@ -1,3 +1,9 @@
+Tutos HTML/CSS/React/Redux : [https://www.youtube.com/watch?v=hWLFTtcnEOs&ab_channel=FromScratch-Led%C3%A9veloppementWebdez%C3%A9ro](https://www.youtube.com/@FromScratchDeveloppementWeb/videos)
+
+Tutos Typescript : https://www.youtube.com/watch?v=ffCIANfx_-0&list=PLjwdMgw5TTLX1tQ1qDNHTsy_lrkCt4VW3&ab_channel=Grafikart.fr
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
