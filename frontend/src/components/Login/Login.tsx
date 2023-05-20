@@ -2,9 +2,6 @@ import React from "react";
 import "./Login.css";
 import logo from "/mnt/nfs/homes/lsalin/ft_transcendance/frontend/src/assets/images/42_Logo.svg";
 
-// Bouton qui redirige l'utilisateur vers l'intra de 42 via une URL de redirection
-// Elle comprend l'UID de notre app, son scope et son URI de redirection.
-
 function Login() {
   const redirectToIntra = () => {
     const clientId = process.env.REACT_APP_CLIENT_ID;
