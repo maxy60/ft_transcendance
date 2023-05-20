@@ -52,5 +52,4 @@ export default Callback;
 // Idées d'amélioration
 // 1) Gestion des erreurs 500/400 "conviviale" pour l'utilisateur
 // 2) Meilleure UX "Loading..."
-// 3) Meilleure gestion  de l'état de l'authentification (Redux)
 // 4) Protection de certaines routes de l'application accessibles uniquement aux utilisateurs authentifies (Route Guard)

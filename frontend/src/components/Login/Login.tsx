@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.css";
-import logo from "/mnt/nfs/homes/lsalin/ft_transcendance/frontend/src/assets/images/42_Logo.svg";
+import logo from "../../assets/images/42_Logo.svg";
 
 function Login() {
   const redirectToIntra = () => {
